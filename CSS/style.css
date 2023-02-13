@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header {
+  width: 100vw;
+} */
+.nav {
+  width: 90%;
+  height: 10vh;
+  background-color: #141414;
+  margin: 0 auto;
+}
+.nav_logo {
+  width: 25%;
+  height: 20vh;
+  background: #99823d;
+}
+.nav_logo img {
+  color: white;
+  margin: auto;
+  padding: 9%;
+}
