@@ -3,15 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
-header {
+.container {
   width: 90vw;
-  height: 10vh;
-  background-color: black;
   display: flex;
   margin: 0 auto;
 }
+
+.nav {
+  height: 68px;
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.nav__left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
 .nav_logo {
   background: #99823d;
-  height: 20vh;
+  height: 136px;
   width: 326px;
+  align-self: flex-start;
+  align-items: center;
+  z-index: 3;
+}
+
+.nav__right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__right ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__right li {
+  font-family: "Open Sans";
+  font-size: 11px;
+  line-height: 34px;
+  letter-spacing: 2.7625px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 36px;
+}
+.hero {
+  height: 660px;
+}
+.hero__bg {
+  background-image: url(../Assets/Images/main-page.png);
+  width: 978px;
+  height: 590px;
+  margin-left: 0;
 }
