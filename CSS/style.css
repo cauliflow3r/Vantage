@@ -23,15 +23,35 @@ body {
   display: flex;
   align-items: center;
 }
+.nav__left a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+.nav__left span {
+  margin-left: 5px;
+}
 .logo_container {
   width: 326px;
   height: 136px;
+  /* position: absolute; */
   background: #99823d;
+  /* margin-top: 70px; */
   align-self: flex-start;
   z-index: 3;
 }
+.nav_left-logo {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
 .nav_logo img {
-  top: 10px;
+  margin-top: 100px;
   left: 10px;
 }
 .nav__right {
@@ -70,6 +90,7 @@ body {
 .socials {
   width: 815px;
   height: 70px;
+  padding-left: 10px;
   background-color: #ebebeb;
   display: flex;
   flex-wrap: nowrap;
