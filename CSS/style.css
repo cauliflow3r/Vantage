@@ -23,13 +23,16 @@ body {
   display: flex;
   align-items: center;
 }
-.nav_logo {
-  background: #99823d;
-  height: 136px;
+.logo_container {
   width: 326px;
+  height: 136px;
+  background: #99823d;
   align-self: flex-start;
-  align-items: center;
   z-index: 3;
+}
+.nav_logo img {
+  top: 10px;
+  left: 10px;
 }
 .nav__right {
   width: 50%;
@@ -152,6 +155,17 @@ body {
   left: -0.01898193359375px;
   top: 0.09375px;
   border-radius: 0px;
+  border: 0;
+
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 2.975px;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 .hero_buttons :first-child {
   background-color: #99823d;
